@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Andale Mono', monospace;
+}
+
+h1{
+    font-size: 70px;
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(140, 184, 237);
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(140, 184, 237);
+    color: white;
+}
+
+
+h3 {
+    font-size: 25px;
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    color: #e6ae35;
+    position: relative;
+    left: -200px;
+}
+
+h4{
+    font-size: 25px;
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    color: #e6ae35;
+    position: relative;
+    top: -50px;
+    left: 200px;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+body /*whole thing/top*/ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 100px;
+    background-color: #000000;
+    overflow-y: scroll;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
+}
+
+
+button {
+    border-width: thick;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 0 5px;
+    font-size: 18px;
+}
+
+button:hover, #submit:hover, #start:hover, #reset:hover {
+    background-color: #f19494;
+}
+
+#start, #reset {
+    position: relative;
+    top: 10px;
+    border: dashed;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+
+#this {
+    border: double;
+    border-width: thick;
+    padding: 50px 50px;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    left: -200px;
+}
+
+#that {
+    border: double;
+    border-width: thick;
+    padding: 50px 50px;
+    font-size: 40px;
+    position: relative;
+    top: -55px;
+    left: 200px;
+}
+
+#submit {
+    position: relative;
+    top: 20px;
+    border: dashed;
+    border-width: thick;
+    padding: 30px 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+#spec {
+    position: relative;
+    top: 100px;
+    margin: -50px;
+    border: dashed;
+    padding: 10px 20px;
+}
+
+p2 {
+    position: relative;
+    top: 175px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+.hide {
+    display: none;
+}
+ 
+b {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(115, 222, 7);
+    padding: 100px 75px;
+}
+
+p5 {
+    text-align: center;
+    background-color: rgb(140, 184, 237);
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    color: white;
+    top: 200px;
+}
+
+#rate-section{
+    text-align: center;
+    position: relative;
+    color: white;
+    display: inline-block;
+    padding: 50px ;
+    top: 200px;
+    bottom: 100px;
+}
+
